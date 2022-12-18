@@ -1,0 +1,11 @@
+.--plans-links {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.--plans-content {
+  padding: 3em 0em;
+}

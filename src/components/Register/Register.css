@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 55vh;
+  padding-top: 5vh;
+}
+
+input[type="text"],
+input[type="password"],textarea{
+  width: 20vw;
+  height: 5vh;
+  border: 1px solid var(--main-grey);
+  border-radius: 0.3em;
+  display: block;
+  padding-left: 2em;
+  font-weight: lighter;
+  opacity: 0.5;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border: none;
+  opacity: 1;
+}
+input[type="checkbox"] {
+  width: 1em;
+  width: 1em;
+  display: inline;
+}
+.terms {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 54%;
+  justify-content: space-between;
+}
+.--inquiry-text {
+  color: var(--main-grey);
+  font-weight: lighter;
+  padding-top: 0.6em;
+  font-size: 0.9em;
+}
+.--inquiry-text a {
+  color: var(--secondary-blue);
+}

@@ -1,0 +1,30 @@
+.--hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.--hero-left {
+  padding: 10em 8em 0em 8em;
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  justify-content: space-around;
+  height: 50%;
+}
+
+.--hero-right {
+  flex: 0.55;
+  max-height: 85%;
+  background-image: url("/public/assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.--hero h3 {
+  font-size: 4em;
+  font-weight: 800;
+  color: var(--text-blue);
+}
+.--hero-red-dot {
+  color: var(--red);
+}

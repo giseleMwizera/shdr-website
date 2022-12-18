@@ -1,0 +1,45 @@
+.--description.--service-navigation {
+  padding-top: 3em;
+}
+.--service-description-content {
+  padding: 3em;
+}
+
+.--service-card {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--white);
+  border: 1px solid var(--secondary-grey);
+  border-radius: 0.6em;
+  margin: 0 auto;
+}
+
+.--card-left {
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  background-image: url("/public/assets/typography.png");
+}
+.--card-right {
+  width: 50%;
+  padding: 3em;
+  line-height: 3em;
+}
+
+.--card-right .--price {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--secondary-blue);
+}
+.--card-right .--title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.--card-right .--description {
+  color: var(--main-grey);
+  line-height: 1.6em;
+  padding-bottom: 3em;
+}

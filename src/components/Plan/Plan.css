@@ -1,0 +1,112 @@
+.--plan-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+  height: 60vh;
+  margin-top: 5%;
+  background-color: var(--white);
+  border-radius: 0.6em;
+  border: 1px solid var(--secondary-grey);
+  justify-content: space-between;
+}
+
+.--plan-left {
+  background-image: url("/public/assets/residential.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 0.6;
+  background-color: rebeccapurple;
+}
+
+.--plan-right {
+  flex: 0.5;
+  padding: 4em 0em 3em 5em;
+  line-height: 2em;
+}
+
+.--plan-right .--plan-price {
+  font-size: 1.2em;
+  color: var(--secondary-blue);
+  font-weight: 400;
+}
+
+.--plan-name {
+  font-size: 1.2em;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.--plan-details {
+  color: var(--main-grey);
+}
+
+/* The floor and rooms icons */
+.--plan-descriptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  margin: 1em 0em 2em 0em;
+}
+/* Specific item  */
+.--plan-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+.--item-icon {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  background-color: var(--tertiary-blue);
+  opacity: 0.4;
+}
+.--plan-item .--item-number {
+  align-items: center;
+  font-weight: 600;
+  padding: 0.5em 0.7em;
+}
+/* comment */
+.--plan-comments {
+  width: 85%;
+  border-top: 2px solid var(--secondary-grey);
+  margin-top: 3em;
+}
+.--plan-comment-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.--plan-commentor-details {
+  display: flex;
+  flex-direction: row;
+}
+.--commentor {
+  color: var(--secondary-blue);
+  font-weight: 500;
+  margin-right: 1em;
+}
+.--comment-number {
+  color: var(--main-grey);
+}
+.--comment-views {
+  font-weight: 500;
+  color: var(--secondary-blue);
+}
+/* Add comment section  */
+
+.--plan-add-comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.--add-comment-text {
+  color: var(--main-grey);
+}
+
+.--comment-send {
+  color: var(--main-blue);
+}

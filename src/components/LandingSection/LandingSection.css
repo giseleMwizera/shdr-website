@@ -1,0 +1,30 @@
+.--landing-section {
+  width: 100%;
+}
+.--section-headline {
+  padding: 3em 0em 4em 6em;
+  font-size: 1.1em;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-end;
+  width: 80%;
+  padding-left: 20%;
+}
+
+.--section-name {
+  color: var(--text-blue);
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
